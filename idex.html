@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xudoyberdiyev Asilbek - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00f5d4;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 15px rgba(0, 245, 212, 0.3);
+    }
+    h1 {
+      font-size: 3rem;
+      color: #00f5d4;
+    }
+    h2 {
+      font-weight: 300;
+      color: #ccc;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: slideUp 1.5s ease;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.05);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0,255,255,0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="photo_2025-06-28_14-22-01.jpg" alt="Xudoyberdiyev Asilbek" class="profile-img">
+    <h1>Xudoyberdiyev Asilbek</h1>
+    <h2>Kelajakdagi IT mutaxassisi | Student</h2>
+  </header>
+
+  <section>
+    <div class="card">
+      <h3>📍 Manzil</h3>
+      <p>Buxoro viloyati, Gʻijduvon tumani, Sadriddin Ayniy  mahallasi</p>
+    </div>
+    <div class="card">
+      <h3>🎓 Ta'lim</h3>
+      <p>toshkent shahar najot talim oquv markazi  <br>
+        Yo'nalish: python</p>
+    </div>
+    <div class="card">
+      <h3>📧 Aloqa</h3>
+      <p>Email: xudoyberdiyevasilbek01032006@gmail.com<br>
+      Tel: +998(94)042-32-52</p>
+      <p>Telegram: <a href="https://t.me/asil_back" style="color: #00f5d4;">@Asilbek</a>
+      <p>Instagram: <a href="https://www.instagram.com/xudoyberdiyev_as1lbek/" style="color: #00f5d4;">Xudoyberdiyev Asilbek</a></p>
+    </p>
+    </div>
+    <div class="card">
+      <h3>🛠️ Qiziqishlar</h3>
+      <ul>
+        <li>AI va dasturlash</li>
+        <li>Video o'yinlar</li>
+        <li>futbol</li>
+        <li>Motivatsion fikrlar</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>💼 Maqsad</h3>
+      <p>Kelajakda kuchli  IT mutaxasis bolib yetishish va  o'z orzularini kodlar orqali ro‘yobga chiqarish.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Xudoyberdiyev Asilbek | Hammasi endi boshlanyapti...
+  </footer>
+</body>
+</html>
